@@ -1,0 +1,61 @@
+
+.header1{
+    background-color: green;
+    height: 150px;
+}
+
+.header1{
+    display: block;
+     color:white;
+     padding: 0px 30px;  
+}
+
+.span1{ 
+    position: fixed;
+    display: inline-block;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    display: inline-block;
+    width: 55%;
+    height: 429px;
+    text-align: center;
+     
+}
+
+
+.span2{
+    padding-top: 25px;
+    padding-bottom: 20px;
+    display: inline-block;
+    width: 25%;
+    height: auto;
+    background-color: green;
+    text-align: center;
+}
+
+.span3{ 
+    position: fixed;
+    display: inline-block;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    padding-right: 350px;
+    display: inline-block;
+    width: 55%;
+    height: 429px;
+    text-align: center;
+     
+}
+
+.button1{
+    
+    background:linear-gradient( #21597f, #0f1837);
+    width: 75%;
+    border: none;
+    color: white;
+    padding: 0px 10px ;
+    font-size: 20px;
+    margin: 4px 2px;
+    text-align: right; 
+    border: 2px solid #020c03;   
+}
+

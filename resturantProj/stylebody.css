@@ -1,0 +1,365 @@
+:root {
+    --White: White;
+    --buttoncolor: #cf1d16;
+    --background-color: #f8f9fa;
+}
+
+
+
+.HeaderDivs {
+    padding-top: 80px;
+    text-align: center;
+}
+
+.Bordertop {
+    position: relative;
+    border-top: solid red;
+    border-width: 2px;
+    ;
+    width: 80px;
+    border-top-width: 2px;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+.headerbody {
+    position: absolute;
+    font-size: 55px;
+    font-weight: bold;
+    padding-left: 725px;
+}
+
+/*absoult not letting btn work*/
+
+.behindGreyText {
+    position: absolute;
+    font-size: 200px;
+    font-weight: bold;
+    color: rgba(128, 128, 128, 0.099);
+    top: 0;
+    padding-top: 1245px; 
+    padding-left: 565px;
+    z-index: -10;
+}
+
+.dishes {
+    padding-top: 150px;
+    padding-left: 600px;
+    width: auto;
+}
+
+.backGround1 {
+    background-image: url("./img/dishes_1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 640px;
+    height: 640px;
+}
+
+.backGround2 {
+    background-image: url("./img/dishes_2.jpg");
+    background-size: contain;
+    width: 640px;
+    height: 640px;
+    background-repeat: no-repeat;
+}
+
+.grid-container {
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: auto auto;
+    width: 850px;
+    height: 850px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+}
+
+
+.bodybuttons {
+    padding-top: 15px;
+}
+
+.bodybutton {
+    border-radius: 90%;
+    height: 10px;
+    width: 10px;
+    border: none
+}
+
+
+.bodybutton:hover {
+    border-radius: 90%;
+    height: 10px;
+    width: 10px;
+    background-color:red;
+
+}
+
+
+
+
+.price {
+    background-color: red;
+    border-radius: 90%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding-top: 35px;
+    font-weight: bold;
+    font-size: 23px;
+    color: white;
+}
+
+
+.itemText {
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(249, 248, 248, 0.987);
+    padding-left: 25px;
+}
+
+.menu {
+    padding-top: 2215px;
+    padding-left: 670px;
+    font-size: 180px;
+    font-weight: 900;
+}
+
+.grid-containerType2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+}
+
+.grid-item2 {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+}
+
+.backgroundcolorwhite {
+    text-align: left;
+    background-image: var(--White);
+}
+
+.menuTextsizeColor {
+    font-size: 15px;
+}
+
+
+.backgroundmanuimage {
+    background-image: url("./img/dishes_4.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+}
+
+.backgroundmanuimage2 {
+    background-image: url("./img/dishes_2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+}
+
+.backgroundmanuimage3 {
+    background-image: url("./img/dishes_1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+}
+
+.backgroundmanuimage4 {
+    background-image: url("./img/dishes_3.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+}
+
+.headerMenu {
+    position: absolute;
+    font-size: 55px;
+    font-weight: bold;
+    padding-left: 830px;
+}
+
+.testiPadding {
+    padding-top: 3040px;
+    padding-left: 250px;
+    font-size: 200px;
+    font-weight: 900;
+}
+
+.grid-container3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item3 {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.textTestimonial {
+    font-size: 20px;
+    font-weight: 350px;
+    width: 350px;
+    height: 180px;
+}
+
+.circleImg {
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    border-radius: 90%;
+    padding-top: 10px;
+}
+
+
+
+.nameTesti {
+    padding-top: 35px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.companyTesti {
+    position: relative;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(128, 128, 128, 0.24);
+}
+
+.grid-container4 {
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+
+.grid-item4 {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+}
+
+.blogpadding {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.ourBlogPadding {
+    padding-top: 3660px;
+    padding-left: 50px;
+    font-size: 230px;
+    font-weight: 900;
+}
+
+
+.grid-containerblog {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #ffffff;
+    width: 1300px;
+    height: 300px;
+}
+
+.grid-itemblog {
+    background-color: rgba(255, 255, 255, 0.8); 
+    font-size: 30px;
+    text-align: center;
+    width: 325px;
+    height: 300px;
+}
+
+.paddingBlogGrid {
+    padding-top: 120px;
+}
+
+.blogImage {
+    background-image: url("./img/dishes_1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 325px;
+    height: 300px;
+}
+
+.blogImage2 {
+    background-image: url("./img/dishes_2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 325px;
+    height: 300px;
+}
+
+.blogHeader {
+    padding-top: 20px;
+    /* padding-left: 20px; */
+    text-align: left;
+    font-size: 22px;
+}
+
+.dateType {
+    font-size: 12px;
+    text-align: left;
+    padding-top: 20px;
+    color: grey;
+}
+
+
+.iconSize {
+    color: grey;
+    width: 18px;
+    height: auto;
+}
+
+.blogTextsizeColor
+{
+    color: grey;
+    font-size: 20px;
+    text-align: left;
+}
+
+.redbtnsizefont{
+    font-size: 12px;
+    font-weight: 80;
+}
+
+.paddingBlog{
+    padding-bottom:100px;
+}
+
+.textSubsribe{
+    font-size: 12px;
+}
+
+.redbtnsizeSub{
+    width: 120px;
+    font-size:14px;
+    font-weight: 100;
+}
+
+.outputEmail{
+    width: 250px;
+    height: 40px;
+    color: grey;
+    border-color: grey;
+    padding-left: 10px;
+}
+
+.paddingSub{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+

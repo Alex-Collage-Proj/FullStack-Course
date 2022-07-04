@@ -1,0 +1,41 @@
+.logo
+{
+    width: 25px;
+    height: auto;
+}
+
+.header{   
+ display: block;
+ width:auto;
+ height: 25px;
+
+}
+
+.subscribe{
+    background-image: url("/img/leaf.jpg");
+}
+
+.headerdiv{
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h1{
+   
+    display: block;
+    background-color: black; 
+    font-size: 75%;
+    padding-right: 15px;
+    color:white;
+}
+
+h2{
+    display: block;
+    background-color: black; 
+    color:white;
+}
+
+.try{
+    width: 60%;
+}

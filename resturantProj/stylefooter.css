@@ -1,0 +1,34 @@
+.backGroundBlack {
+    background-color: rgb(50, 50, 50);
+    color: white;
+    padding-bottom: 100px;
+}
+
+.paddingFooter {
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.aRed {
+    color: red;
+    text-decoration: none;
+}
+
+.aRed:hover {
+    color: white;
+}
+
+.aRed::after {
+    content: "\a";
+    white-space: pre;
+
+}
+
+.infoHeaderText{
+    color: grey;
+}
+
+.infoText
+{
+    color: white;
+}

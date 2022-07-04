@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank</title>
+</head>
+
+<body>
+    <div style="text-align: right;">
+        <h1 style="text-align: center;"> התחברות לחשבון בנק ישראל</h1>
+        <h2>ניתן להתחבר באמצעות הזדהות וקבלת קוד אישי לנייד</h2>
+
+        <form>
+            <b>סוג מזהה*</b>
+            <input type="radio" name="type" id="Type_1">
+            <label for="Type_1">תעודת זהות</label>
+            <input type="radio" name="type" id="Type_2">
+            <label for="Type_2">ח.פ.</label>
+            <input type="radio" name="type" id="Type_3">
+            <label for="Type_3">דרכון</label>
+
+
+            <br><br>
+            <label for="number2"><b>*מספר מזהה</b></label>
+            <input type="number" id="number2">
+
+        </form>
+
+        <hr />
+        <form>
+            <b>ברצוני לקבל את קוד הכניסה ל-</b>
+            <input type="radio" name="type2" id="Type_4">
+            <label for="Type_4">נייד</label>
+            <input type="radio" name="type2" id="Type_5">
+            <label for="Type_5">מייל</label>
+
+            <br><br>
+            <label for="number"><b>*טלפון נייד</b></label>
+            <input type="text" id="number">
+
+            <br><br>
+
+            <hr />
+
+            <input type="checkbox" id="agreement" name="agreement">
+            <label for="agreement"><a href="">אני מאשר שקראתי את תנאי השימוש</a></label>
+
+        </form>
+        <br><br>
+    </div>
+    <div style="text-align: center;">
+        <form>
+            <button type="submit"
+                style="background-color:rgba(56, 56, 232, 0.722);color: white; text-align: center; height: 7ch; width: 10ch;">שלח</button>
+        </form>
+    </div>
+</body>
+
+</html>

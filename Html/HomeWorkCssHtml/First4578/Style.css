@@ -1,0 +1,172 @@
+body {
+    background-color: #65aaf0;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: block; 
+}
+
+h1 {
+    color: white;
+    font-size: 3em;
+    font-family: monospace;
+}
+
+.phone {
+    color: white;
+    padding-left: 200px;
+    font-size: 2em;
+    font-family: monospace;
+}
+
+.header {
+    display: inline-block;
+    height: 85px;
+}
+
+.buttons {
+    display: inline-block;
+    padding-left: 55%;
+}
+
+.btnStyle {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: monospace;
+    color: white;
+    padding-left: 1em;
+    padding-left: 15px;
+    padding-top: 30px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+    text-align: center;
+
+}
+
+.btnStyle:hover {
+    color: black;
+    background-color: white;
+
+}
+
+main {
+    background-image: url("./Gallery/LapHand.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 850px;
+}
+
+.move {
+    padding-left: 65em;
+    padding-top: 20em;
+}
+
+.logIn {
+    width: 550px;
+    height: 350px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.418);
+    display: inline-block;
+
+}
+
+.details {
+    display: inline-block;
+    text-align: center;
+    padding-right: 2em;
+}
+
+.massageBox {
+    display: inline-block;
+    text-align: center;
+}
+
+label {
+    color: white;
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+input {
+    padding-top: 10px;
+}
+
+.submit {
+    text-align: center;
+    border-color: white;
+    color: white;
+    font-family: monospace;
+    font-size: 15px;
+    background-color: #65aaf0;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.textBox {
+    padding-top: 63%;
+}
+
+footer {
+    width: 100%;
+    height: 450px;
+    background-color: #65aaf0;
+}
+
+.StartEnd {
+
+    display: inline-block;
+    height: 400;
+    text-align: center;
+    vertical-align: top;
+    color: white;
+    text-align: left;
+}
+
+h2 {
+    color: rgba(34, 34, 34, 0.802);
+    font-family: monospace;
+    font-size: 30px;
+}
+
+.Mid {
+    display: inline-block;
+    height: 400;
+    vertical-align: top;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+
+.AligEnd {
+    padding-left: 300px;
+}
+
+.EndPadding {
+    padding-top: 50px;
+
+}
+
+.Scolor {
+    background-color: rgba(34, 34, 34, 0.857);
+    width: 250px;
+    font-size: 15px;
+}
+
+.Email2 {
+    width: 240px;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+img {
+    width: 160px;
+    height: 75px;
+}

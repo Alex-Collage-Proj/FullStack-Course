@@ -1,0 +1,169 @@
+:root {
+    --White: White;
+    --buttoncolor: #cf1d16;
+    --background-color: #f8f9fa;
+}
+
+
+.box {
+    display: inline-block;
+}
+
+.btn-red {
+    border-radius: 0px;
+    border: 1px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: var(--buttoncolor);
+    color: var(--White);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.btnred {
+    padding-left:180px;
+}
+
+.headerpadding
+{
+    padding-left: 150px;
+}
+
+.carouselSize {
+    position: relative;
+}
+
+.overCarousel {
+    position: absolute;
+    width: 900px;
+    top: 0;
+}
+
+.icone {
+    width: 40px;
+    padding-bottom: 20px;
+}
+
+h5{
+    padding-bottom: 20px;
+}
+
+.grey-background {
+    background-color: var(--background-color);
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.flex-container>div {
+    flex-basis: calc(25% - 10px);
+    padding-top: 90px;
+    padding-left: 10px;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.grey-p {
+    color: #adb3b8;
+    font-size: 15px;
+}
+
+
+.d-block {
+    height: 850px;
+    object-fit: cover;
+}
+
+.buttonRound {
+    border-radius: 50%;
+    height: 15px;
+}
+
+.headerStyle {
+    color: var(--White);
+    font-size: 25px;
+    padding-top: 2%;
+    padding-right: 18%;
+}
+
+.h1controler {
+    font-weight: bold;
+    color: var(--White);
+}
+
+.controlli {
+    color: var(--White);
+    text-decoration: none; 
+}
+
+.controlOpti {
+    border: 0px;
+    outline: 0px;
+}
+
+
+select {
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    color: var(--White);
+}
+
+select option {
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+
+/* How Turn all Drop Box Into Transparent? */
+
+    font-size: 14px;
+    background: rgba(0,0,0, 0.8);
+    padding: 8px 0;
+    color: white;
+    border-bottom: none;
+    /*display: none;*/   
+    opacity: 0;
+}
+
+
+
+
+
+.carousel-indicators{
+    height: 70px;
+}
+
+
+
+.middelHeader{
+    padding-top: 25%;
+    text-align: center; 
+}
+
+.middelText{
+    color:var(--White);
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 55px;
+}
+
+.btnStart{
+    border: 1px var(--White);
+    color: var(--White);
+    border-style: solid;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 450;
+    padding: 10px 20px 10px 20px;
+    border-width: 2px;   
+}
+

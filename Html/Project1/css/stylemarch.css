@@ -1,0 +1,10 @@
+main> div,section{
+    margin: 10px 0;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+a::selection{
+ color:rgb(0, 255, 64);
+}

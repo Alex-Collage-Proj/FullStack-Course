@@ -1,0 +1,51 @@
+table,
+th,
+td {
+    border: 3px solid black;
+}
+
+
+.cubeGreen {
+    border: 3px solid black;
+    height: 200px;
+    width: 15%;
+    text-align: center;
+    background-color: green;
+    
+}
+
+.cubeAqua {
+    border: 3px solid black;
+    height: 200px;
+    width: 15%;
+    text-align: center;
+    background-color: aqua;
+}
+
+.column3 {
+    float: left;
+    width: 10%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+
+.column2 {
+    float: left;
+    width: 5%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
