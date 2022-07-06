@@ -23,10 +23,14 @@
 
 }
 
+
 .btnred {
     padding-left:180px;
 }
-
+header{
+    width:1080;
+   
+}
 .headerpadding
 {
     padding-left: 150px;
@@ -52,12 +56,13 @@ h5{
 }
 
 .grey-background {
-    background-color: var(--background-color);
+    background-color: var(--background-color);   
 }
 
 .flex-container {
     display: flex;
     flex-wrap: nowrap;
+   
 }
 
 .flex-container>div {
@@ -86,6 +91,7 @@ h5{
     height: 15px;
 }
 
+
 .headerStyle {
     color: var(--White);
     font-size: 25px;
@@ -103,6 +109,10 @@ h5{
     text-decoration: none; 
 }
 
+.controlli:hover{
+    color: var(--buttoncolor);
+}
+
 .controlOpti {
     border: 0px;
     outline: 0px;
@@ -115,6 +125,10 @@ select {
     resize: none;
     outline: none;
     color: var(--White);
+}
+
+.select:hover{
+    color: var(--buttoncolor);
 }
 
 select option {
@@ -167,3 +181,8 @@ select option {
     border-width: 2px;   
 }
 
+
+.btnStart:hover{
+    color: var(--buttoncolor);
+    border-color: var(--buttoncolor);
+}

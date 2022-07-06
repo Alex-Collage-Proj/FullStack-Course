@@ -1,41 +1,138 @@
-.logo
-{
-    width: 25px;
+body {
+    font-family: 'Gentium Book Plus', serif;   
+}
+
+.logo {
+    width: 18px;
     height: auto;
+    padding-left: 8px;
 }
 
-.header{   
- display: block;
- width:auto;
- height: 25px;
+.blackBackGround{
+    background-color: black;
+    color: white;
+}
+.header {
+    display: block;
+    width: auto;
+    height: 10px;
+    padding-bottom: 1em;
 
 }
 
-.subscribe{
+.subscribe {
     background-image: url("/img/leaf.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.headerdiv{
+
+.headerdiv {
     display: inline-block;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: bold;
 }
 
-h1{
-   
+h1 {
+
     display: block;
-    background-color: black; 
-    font-size: 75%;
-    padding-right: 15px;
-    color:white;
+    background-color: black;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    padding-left: 0.3em;
 }
 
-h2{
+h2 {
     display: block;
-    background-color: black; 
-    color:white;
+    background-color: black;
+    color: white;
+    font-size: 1.3em;
+    padding-left: 0.3em;
 }
 
-.try{
-    width: 60%;
+
+
+h3 {
+    font-size: 16px;
+    padding-left: 1em;
 }
+
+p {
+    padding-left: 1em;
+    font-size: 11px;
+}
+
+form {
+    padding-left: 1em;
+    padding-bottom: 1em;
+}
+
+
+
+input {
+    width: 12em;
+}
+
+
+.GreenLifeStyle {
+    width: 75%;
+    padding-left: 1em;
+}
+
+.FindOut {
+    width: 80%;
+    font-size:10px;
+    padding-left:1.5em;
+}
+
+.subscribee {
+    width: 90%;
+    padding-top: 1px;
+    background-color: white;
+    text-align: left;
+}
+
+.subscribeepedding {
+    padding-left: 1em;
+    padding-bottom: 2em;
+}
+
+.submit {
+    width: 12.5em;
+    background-color: rgba(0, 128, 0, 0.811);
+    color: white;
+    font-weight: bold;
+    border: 0ch;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.paddinginput{
+    padding-bottom: 5px;
+}
+
+.imageRound{
+    width: 45px;
+    height: 45px;
+    border-radius: 90%;
+}
+
+.header{
+    background-color:inherit;
+    color: black;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto; 
+  }
+  .grid-item {
+    
+    font-size: 30px;
+    text-align: left;
+  }
+
+  .box{
+    display:inline-block;
+  }

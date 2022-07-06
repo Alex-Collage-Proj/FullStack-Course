@@ -1,21 +1,44 @@
+:root {
+    --White: White;
+    --buttoncolor: #cf1d16;
+    --background-color: #f8f9fa;
+}
+
+
+
+
+footer{
+    padding-left: 165px;
+}
+
 .backGroundBlack {
     background-color: rgb(50, 50, 50);
-    color: white;
-    padding-bottom: 100px;
+    color:var(--White);  
 }
 
 .paddingFooter {
     padding-top: 80px;
-    padding-bottom: 100px;
+    padding-bottom: 40px;
 }
 
 .aRed {
-    color: red;
+    color: var(--buttoncolor);
     text-decoration: none;
+    
 }
 
+.paddingCopyRight{
+    padding-top: 80px;  
+}
+
+.textColorFooter{
+    color: grey;
+    font-size: 18px;
+}
+
+
 .aRed:hover {
-    color: white;
+    color: var(--White);
 }
 
 .aRed::after {
@@ -30,5 +53,5 @@
 
 .infoText
 {
-    color: white;
+    color: var(--White);
 }
